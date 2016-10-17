@@ -1,0 +1,22 @@
+#mama>div{
+    width: 100%;
+    height: 596px;
+}
+
+.first{
+    width: 100%;
+    height: 596px;
+    
+    background-image: url(sources/Bg.png)
+}
+.logo{
+    width: 117px;
+    height: 37px;
+    float: left;
+}
+
+.menu{
+    clear: both;
+    width: 10px;
+    font-family: "TitilliumWeb Regular";
+}
