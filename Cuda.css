@@ -92,7 +92,6 @@
 #service-title hr {
     width: 100px;
     height: 5px;
-    color: black;
     background-color: #14a58c;
     border: none;
 }
@@ -103,6 +102,9 @@
     font-family: "Titillium Web", sans-serif;
 }
 
+#service #option-service {
+    padding-top: 30px;
+}
 #option-service {
     text-align: center;
 }
@@ -122,6 +124,48 @@
 #team {
     width: 100%;
     height: 914px;
-    
+    padding-top: 80px;
     background: #e7f1f8;
+}
+
+#team-title {
+    text-align: center;
+}
+
+#team-title hr {
+    width: 100px;
+    height: 5px;
+    background-color: #14a58c;
+    border: none;
+}
+
+#team #team-picture {
+    padding-top: 50px;
+}
+
+#team-picture {
+    text-align: center;
+}
+
+#team ul {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+
+#team-picture h4 {
+    margin-top: -20px;
+    font-size: 14px;
+    color: aqua;
+}
+
+#team-picture .social-media {
+    margin-left: -50px;
+    padding-top: 20px;
+}
+
+#team .social-media li {
+    display: inline;
+    padding-right: 2px;
+    text-align: center;
 }
