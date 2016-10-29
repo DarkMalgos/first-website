@@ -299,8 +299,183 @@
 
 #peoplesay-title {
     text-align: center;
+    color: white;
 }
 
-#peoplesay-title h1{
+#peoplesay-title hr {
+    width: 100px;
+    height: 5px;
+    background-color: #b73c6d;
+    border: none;
+}
+
+#post1-2 {
+    text-align: center;
     color: white;
+}
+
+#post1-2 ul {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    padding: 50px 50px 150px;
+
+}
+
+#post1-2 li img {
+    float: left;
+}
+
+#post1-2 li p {
+    float: right;
+    padding-left: 50px;
+}
+
+#post1-2 li h3{
+    clear: both;
+    padding-left: 37%
+}
+#post1-2 li h4 {
+    color: yellow;;
+    margin-top: -5%;;
+    padding-left: 37%;
+}
+
+#post3-4 {
+    text-align: center;
+    color: white;
+}
+
+#post3-4 ul {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    padding: 50px 50px;
+
+}
+
+#post3-4 li img {
+    float: left;
+}
+
+#post3-4 li p {
+    float: right;
+    padding-left: 50px;
+}
+
+#post3-4 li h3{
+    clear: both;
+    padding-left: 37%
+}
+#post3-4 li h4 {
+    color: yellow;;
+    margin-top: -5%;;
+    padding-left: 37%;
+}
+
+#bottom {
+    width: 100%;
+    height: 818px;
+    background: #3c5499;
+}
+
+#bottom #bottom-title {
+    padding-top: 50px;
+}
+
+#bottom-title {
+    text-align: center;
+    color: white;
+}
+
+#bottom-title hr {
+    width: 100px;
+    height: 5px;
+    background-color:  #273a71;
+    border: none;
+}
+
+#bottom #name-email {
+    padding-top: 50px;
+}
+
+#name-email {
+    text-align: center;
+}
+
+#name-email li {
+    list-style: none;
+    display: inline;
+    padding-left: 20px;
+}
+#name-email li input{
+    color: white;
+    background: #273a71;
+    border: none;
+    width: 364px;
+    padding: 22px 25px;
+    
+}
+
+#emailtext {
+    text-align: center;
+}
+
+#emailtext textarea {
+    text-align: left;
+    color: white;
+    background: #273a71;
+    width: 813px;
+    height: 200px;
+    border: none;
+}
+
+#emailtext textarea span {
+    color: red;
+}
+
+#bottom-button {
+    margin-top: 70px;
+    margin-right: 40%;
+    margin-left: 40%;
+    height: 50px;
+    background: #30bae7;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#bottom-button p {
+    padding-top: 7%;
+    color: white;
+    
+}
+
+#footer {
+    width: 100%;
+    height: 111px;
+    background: #344b8e;
+}
+
+#footer #smedia {
+    padding: 20px;
+}
+
+#smedia {
+    text-align: center;
+}
+
+#smedia ul li {
+    list-style: none;
+    display: inline;
+    color: white;
+    padding-right: 60px;
+    font-size: 20px;
+}
+
+#smedia ul li:hover {
+    list-style: none;
+    display: inline;
+    color: cyan;
+    padding-right: 60px;
+    font-size: 20px;
 }
